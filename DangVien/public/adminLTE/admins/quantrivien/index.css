@@ -1,0 +1,16 @@
+.avt{
+  width: 5rem;
+  height: 5rem;
+}
+
+.Login{
+    color: green;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    background-color: blue;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove{
+    margin-left: 0;
+}

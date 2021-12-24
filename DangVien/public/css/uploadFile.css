@@ -1,0 +1,50 @@
+
+.input-file-container {
+    position: relative;
+    width: 100%;
+    margin-top: 1rem;
+}
+.js .input-file-trigger {
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 5px;
+    width: 80%;
+    background: var(--white-color);
+    color: var(--brown-color);
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+}
+.js .input-file {
+    position: absolute;
+    top: 0; left: 0;
+    width: 225px;
+    opacity: 0;
+    padding: 14px 0;
+    cursor: pointer;
+}
+.file-return {
+    margin: 0;
+}
+.file-return:not(:empty) {
+    margin: 1em 0;
+}
+.js .file-return {
+    font-style: italic;
+    font-size: .9em;
+    font-weight: bold;
+}
+.js .file-return:not(:empty):before {
+    content: "Selected file: ";
+    font-style: normal;
+    font-weight: normal;
+}
+input{
+        margin-bottom: 1rem;
+}
+.icon-file-upload,.fas .fa-upload{
+        cursor: pointer;
+}
